@@ -1,0 +1,142 @@
+  PTI INTERACTIVE POWER SYSTEM SIMULATOR--PSS(R)E Xplore TUE, APR 01 2025  13:33
+ PSS(R)E PROGRAM APPLICATION GUIDE EXAMPLE                                RATING   %MVA FOR TRANSFORMERS
+ BASE CASE INCLUDING SEQUENCE DATA                                        SET  1   % I  FOR NON-TRANSFORMER BRANCHES
+
+ BUS    101     NUC-A       21.600 CKT     MW     MVAR     MVA   % 1.0200PU   17.30  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    101
+  FROM GENERATION                        780.3   107.6R  787.7  88 22.032KV               MW     MVAR    1 FLAPCO         77 PLANT
+  TO    151     NUCPANT     500.00  1    780.3   107.6   787.7  63 1.0000UN              1.79   81.10    1 FLAPCO          1 FIRST
+
+ BUS    102     NUC-B       21.600 CKT     MW     MVAR     MVA   % 1.0200PU   17.30  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    102
+  FROM GENERATION                        780.3   107.6R  787.7  88 22.032KV               MW     MVAR    1 FLAPCO         77 PLANT
+  TO    151     NUCPANT     500.00  1    780.3   107.6   787.7  63 1.0000UN              1.79   81.10    1 FLAPCO          1 FIRST
+
+ BUS    151     NUCPANT     500.00 CKT     MW     MVAR     MVA   % 1.0087PU   11.39  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    151
+                                                                   504.35KV               MW     MVAR    1 FLAPCO          1 FIRST
+  TO SHUNT                                 0.0   635.2   635.2
+  TO    101     NUC-A       21.600  1   -778.5   -26.5   779.0  62 1.0000LK              1.79   81.10    1 FLAPCO         77 PLANT
+  TO    102     NUC-B       21.600  1   -778.5   -26.5   779.0  62 1.0000LK              1.79   81.10    1 FLAPCO         77 PLANT
+  TO    152     MID500      500.00  1    483.2  -148.8   505.6  42                       5.99  105.92    1 FLAPCO          1 FIRST
+  TO    152     MID500      500.00  2    483.2  -148.8   505.6  42                       5.99  105.92    1 FLAPCO          1 FIRST
+  TO    201     HYDRO       500.00  1    590.7  -284.6   655.7  54                       3.92   58.81    2 LIGHTCO         2 SECOND
+
+ BUS    152     MID500      500.00 CKT     MW     MVAR     MVA   % 1.0071PU   -1.20  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    152
+                                                                   503.57KV               MW     MVAR    1 FLAPCO          1 FIRST
+  TO    151     NUCPANT     500.00  1   -477.2  -100.8   487.7  40                       5.99  105.92    1 FLAPCO          1 FIRST
+  TO    151     NUCPANT     500.00  2   -477.2  -100.8   487.7  40                       5.99  105.92    1 FLAPCO          1 FIRST
+  TO    153     MID230      230.00  1    768.9   315.6   831.1  33 1.0094LK              0.00   34.69    1 FLAPCO          1 FIRST
+  TO    202     EAST500     500.00  1     42.9    25.3    49.8   4                       0.06    0.71    2 LIGHTCO         2 SECOND
+  TO   3004     WEST        500.00  1    142.6  -139.2   199.3                           0.61    6.06    5 WORLD           5 FIFTH
+
+ BUS    153     MID230      230.00 CKT     MW     MVAR     MVA   % 0.9827PU   -3.45  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    153
+                                                                   226.03KV               MW     MVAR    1 FLAPCO          1 FIRST
+  TO LOAD-PQ                             208.1   102.0   231.7
+  TO    152     MID500      500.00  1   -768.9  -280.9   818.6  33 1.0000UN              0.00   34.69    1 FLAPCO          1 FIRST
+  TO    154     DOWNTN      230.00  1    261.7   109.2   283.6  96                       4.22   37.98    1 FLAPCO          1 FIRST
+  TO    154     DOWNTN      230.00  2    218.1    87.8   235.1  80                       3.52   31.65    1 FLAPCO          1 FIRST
+  TO   3006     UPTOWN      230.00  1     81.0   -18.1    83.0                           0.07    0.85    5 WORLD           5 FIFTH
+
+ BUS    154     DOWNTN      230.00 CKT     MW     MVAR     MVA   % 0.9242PU  -10.53  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    154
+                                                                   212.58KV               MW     MVAR    1 FLAPCO          1 FIRST
+  TO LOAD-PQ                            1040.4   816.0  1322.2
+  TO SHUNT                                 0.0  -266.6   266.6
+  TO    153     MID230      230.00  1   -257.5   -80.4   269.7  97                       4.22   37.98    1 FLAPCO          1 FIRST
+  TO    153     MID230      230.00  2   -214.6   -69.8   225.7  81                       3.52   31.65    1 FLAPCO          1 FIRST
+  TO    203     EAST230     230.00  1   -127.1   -56.6   139.1  75                       0.88    8.85    2 LIGHTCO         2 SECOND
+  TO    205     SUB230      230.00  1   -368.1  -249.7   444.8  80                       0.76    7.64    2 LIGHTCO         2 SECOND
+  TO   3008     CATDOG      230.00  1    -73.1   -92.9   118.2  32                       0.37    3.03    5 WORLD           5 FIFTH
+
+ BUS    201     HYDRO       500.00 CKT     MW     MVAR     MVA   % 1.0400PU    6.43  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    201
+                                                                   520.00KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO SHUNT                                 0.0  -337.6   337.6
+  TO    151     NUCPANT     500.00  1   -586.8   217.5   625.8  50                       3.92   58.81    1 FLAPCO          1 FIRST
+  TO    202     EAST500     500.00  1    579.8    52.7   582.2  47                       6.69   83.68    2 LIGHTCO         2 SECOND
+  TO    205     SUB230      230.00  &1   628.7   107.2   637.8  51                      13.98  195.46    2 LIGHTCO         2 SECOND
+  TO    211     HYDRO_G     20.000  1   -621.8   -39.7   623.0  78 1.0000LK              2.51   76.26    2 LIGHTCO         2 SECOND
+
+ BUS    202     EAST500     500.00 CKT     MW     MVAR     MVA   % 0.9995PU   -1.41  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    202
+                                                                   499.76KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO    152     MID500      500.00  1    -42.9  -120.2   127.6  11                       0.06    0.71    1 FLAPCO          1 FIRST
+  TO    201     HYDRO       500.00  1   -573.1  -177.1   599.8  50                       6.69   83.68    2 LIGHTCO         2 SECOND
+  TO    203     EAST230     230.00  1    615.9   297.3   683.9  85 1.0000LK    0.00LK    1.87   76.09    2 LIGHTCO         2 SECOND
+
+ BUS    203     EAST230     230.00 CKT     MW     MVAR     MVA   % 0.9539PU   -7.36  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    203
+                                                                   219.39KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO LOAD-PQ                             312.1   153.0   347.6
+  TO SHUNT                                 0.0   -47.3    47.3
+  TO    154     DOWNTN      230.00  1    128.0    56.6   139.9  73                       0.88    8.85    1 FLAPCO          1 FIRST
+  TO    202     EAST500     500.00  1   -614.0  -221.2   652.7  82 1.0000UN              1.87   76.09    2 LIGHTCO         2 SECOND
+  TO    205     SUB230      230.00  1     87.0    29.5    91.8  48                       0.48    4.28    2 LIGHTCO         2 SECOND
+  TO    205     SUB230      230.00  2     87.0    29.5    91.8  48                       0.48    4.28    2 LIGHTCO         2 SECOND
+
+ BUS    205     SUB230      230.00 CKT     MW     MVAR     MVA   % 0.9345PU   -9.77  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    205
+                                                                   214.93KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO LOAD-PQ                            1248.5   714.0  1438.2
+  TO SHUNT                                 0.0  -272.6   272.6
+  TO    154     DOWNTN      230.00  1    368.9   249.5   445.4  79                       0.76    7.64    1 FLAPCO          1 FIRST
+  TO    201     HYDRO       500.00  &1  -614.7  -164.0   636.2  80 1.0000UN             13.98  195.46    2 LIGHTCO         2 SECOND
+  TO    203     EAST230     230.00  1    -86.5   -32.3    92.3  49                       0.48    4.28    2 LIGHTCO         2 SECOND
+  TO    203     EAST230     230.00  2    -86.5   -32.3    92.3  49                       0.48    4.28    2 LIGHTCO         2 SECOND
+  TO    206     URBGEN      18.000  1   -829.6  -462.3   949.7 106 1.0000LK              2.69  137.68    2 LIGHTCO         2 SECOND
+
+ BUS    206     URBGEN      18.000 CKT     MW     MVAR     MVA   % 1.0096PU   -3.12  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    206
+  FROM GENERATION                        832.3   600.0H 1026.0 103 18.172KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO    205     SUB230      230.00  1    832.3   600.0  1026.0 114 1.0000UN              2.69  137.68    2 LIGHTCO         2 SECOND
+
+ BUS    211     HYDRO_G     20.000 CKT     MW     MVAR     MVA   % 1.0599PU   13.30  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X    211
+  FROM GENERATION                        624.2   116.0R  634.9  88 21.198KV               MW     MVAR    2 LIGHTCO         2 SECOND
+  TO    201     HYDRO       500.00  1    624.3   115.9   634.9  79 1.0000UN              2.51   76.26    2 LIGHTCO         2 SECOND
+
+ BUS   3001     MINE        230.00 CKT     MW     MVAR     MVA   % 1.0270PU   -1.45  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3001
+                                                                   236.21KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO   3002     E. MINE     500.00  1     59.5    20.9    63.1   8 1.0000LK              0.01    0.57    5 WORLD           5 FIFTH
+  TO   3003     S. MINE     230.00  1    213.5   103.9   237.4                           0.00    4.28    5 WORLD           5 FIFTH
+  TO   3011     MINE_G      13.800  1   -273.0  -124.8   300.2  23 1.0000LK              0.17    8.54    5 WORLD           5 FIFTH
+
+ BUS   3002     E. MINE     500.00 CKT     MW     MVAR     MVA   % 1.0238PU   -1.93  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3002
+                                                                   511.89KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO   3001     MINE        230.00  1    -59.5   -20.4    62.9   8 1.0000UN              0.01    0.57    5 WORLD           5 FIFTH
+  TO   3004     WEST        500.00  1     59.5    20.4    62.9                           0.24    2.15    5 WORLD           5 FIFTH
+
+ BUS   3003     S. MINE     230.00 CKT     MW     MVAR     MVA   % 1.0190PU   -2.39  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3003
+                                                                   234.37KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO   3001     MINE        230.00  1   -213.5   -99.6   235.6                           0.00    4.28    5 WORLD           5 FIFTH
+  TO   3005     WEST        230.00  1    106.8    49.8   117.8                           0.83    7.47    5 WORLD           5 FIFTH
+  TO   3005     WEST        230.00  2    106.8    49.8   117.8                           0.83    7.47    5 WORLD           5 FIFTH
+
+ BUS   3004     WEST        500.00 CKT     MW     MVAR     MVA   % 1.0075PU   -3.64  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3004
+                                                                   503.75KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO    152     MID500      500.00  1   -142.0  -108.4   178.6                           0.61    6.06    1 FLAPCO          1 FIRST
+  TO   3002     E. MINE     500.00  1    -59.2   -27.5    65.3                           0.24    2.15    5 WORLD           5 FIFTH
+  TO   3005     WEST        230.00  1    201.2   135.9   242.8  30 1.0000LK              0.23    9.44    5 WORLD           5 FIFTH
+
+ BUS   3005     WEST        230.00 CKT     MW     MVAR     MVA   % 0.9853PU   -5.49  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3005
+                                                                   226.62KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO LOAD-PQ                             104.0    51.0   115.9
+  TO   3003     S. MINE     230.00  1   -105.9   -51.4   117.7                           0.83    7.47    5 WORLD           5 FIFTH
+  TO   3003     S. MINE     230.00  2   -105.9   -51.4   117.7                           0.83    7.47    5 WORLD           5 FIFTH
+  TO   3004     WEST        500.00  1   -201.0  -126.5   237.4  30 1.0000UN              0.23    9.44    5 WORLD           5 FIFTH
+  TO   3006     UPTOWN      230.00  1    -80.6    11.4    81.4                           0.24    2.08    5 WORLD           5 FIFTH
+  TO   3008     CATDOG      230.00  &1   247.3   106.6   269.3                           2.32   19.32    5 WORLD           5 FIFTH
+  TO   3008     CATDOG      230.00  1    142.1    60.3   154.4                           1.52   12.65    5 WORLD           5 FIFTH
+
+ BUS   3006     UPTOWN      230.00 CKT     MW     MVAR     MVA   % 0.9840PU   -4.03  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3006
+                                                                   226.32KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO    153     MID230      230.00  1    -80.9    16.1    82.5                           0.07    0.85    1 FLAPCO          1 FIRST
+  TO   3005     WEST        230.00  1     80.9   -16.1    82.5                           0.24    2.08    5 WORLD           5 FIFTH
+
+ BUS   3008     CATDOG      230.00 CKT     MW     MVAR     MVA   % 0.9456PU   -9.62  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3008
+                                                                   217.48KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO LOAD-PQ                             208.1    76.5   221.7
+  TO    154     DOWNTN      230.00  1     73.4    69.7   101.3  27                       0.37    3.03    1 FLAPCO          1 FIRST
+  TO   3005     WEST        230.00  &1   -36.9   -21.8    42.9                           2.32   19.32    5 WORLD           5 FIFTH
+  TO   3005     WEST        230.00  1   -140.6   -58.8   152.4                           1.52   12.65    5 WORLD           5 FIFTH
+  TO   3018     CATDOG_G    13.800  1   -104.0   -65.6   123.0  82 1.0000LK              0.04   14.38    5 WORLD           5 FIFTH
+
+ BUS   3011     MINE_G      13.800 CKT     MW     MVAR     MVA   % 1.0400PU    0.00  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3011
+  FROM GENERATION                        273.2   133.4R  304.0  30 14.352KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO   3001     MINE        230.00  1    273.2   133.4   304.0  23 1.0000UN              0.17    8.54    5 WORLD           5 FIFTH
+
+ BUS   3018     CATDOG_G    13.800 CKT     MW     MVAR     MVA   % 1.0091PU   -4.31  X--- LOSSES ---X X---- AREA -----X X---- ZONE -----X   3018
+  FROM GENERATION                        104.0    80.0H  131.2 101 13.926KV               MW     MVAR    5 WORLD           5 FIFTH
+  TO   3008     CATDOG      230.00  1    104.0    80.0   131.2  87 1.0000UN              0.04   14.38    5 WORLD           5 FIFTH
+

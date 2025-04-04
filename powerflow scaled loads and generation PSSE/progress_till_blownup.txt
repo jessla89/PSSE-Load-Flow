@@ -1,0 +1,1341 @@
+
+           SIEMENS POWER TECHNOLOGIES INTERNATIONAL
+
+    50 BUS POWER SYSTEM SIMULATOR--PSS(R)E Xplore-35.6.1
+
+             INITIATED ON WED, APR 02 2025  10:32
+
+ New study initialized:
+
+ PSS(R)E PROGRAM APPLICATION GUIDE EXAMPLE
+ BASE CASE INCLUDING SEQUENCE DATA
+
+ The Saved Case in file C:\Users\Aneesh\Documents\PTI\PSSE35\savnw.sav was saved on TUE, APR 01 2025  15:29
+
+ The following option settings are changed to the settings contained in the Saved Case File:
+
+ ** [OPF] APPLY FUEL COST OBJECTIVE option setting set to YES
+
+ ** [OPF] APPLY ADJUSTABLE BRANCH REACTANCE OBJECTIVE option setting set to YES
+
+ ** [OPF] CONSTRAIN INTERFACE FLOWS option setting set to YES
+
+ ** [OPF] AUTOMATIC SCALING option setting set to YES
+
+ ** [OPF] DUAL VARIABLE CONVERGENCE CRITERIA option setting set to YES
+
+ ** [OPF] NUMBER OF BAD ITERATIONS WHEN MU>-2 option setting set to 10
+
+ ** [OPF] NUMBER OF BAD ITERATIONS WHEN MU<=-2 option setting set to 20
+
+ ** [OPF] PRODUCE AN OPF LOG FILE option setting set to YES
+
+ ** [OPF] ADD SOLUTION DETAILS TO OPF LOG FILE option setting set to YES
+
+ PSS(R)E PROGRAM APPLICATION GUIDE EXAMPLE
+ BASE CASE INCLUDING SEQUENCE DATA
+
+ The Saved Case in file C:\Users\Aneesh\Documents\PTI\PSSE35\powerflow_scaled loads and generation\savnw.sav was saved on TUE, AUG 06 2024  15:15
+
+ Closed study file:
+
+ New study initialized:
+
+ PSS(R)E PROGRAM APPLICATION GUIDE EXAMPLE
+ BASE CASE INCLUDING SEQUENCE DATA
+
+ The Saved Case in file C:\Users\Aneesh\Documents\PTI\PSSE35\powerflow_scaled loads and generation\savnw.sav was saved on TUE, AUG 06 2024  15:15
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.0002(    201     )    0.0004(    211     )
+                                                             0.00000(            )   0.00000(    102     )
+   0.5       0.0000(    206     )    0.0004(    211     )
+                                                             0.00001(    211     )   0.00000(            )
+   1.0       0.0001(    201     )    0.0002(    211     )
+
+
+ Reached tolerance in 1 iterations
+
+ Largest mismatch:      0.01 MW     -0.02 Mvar      0.02 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.06 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     258.6    900.0     0.0     103.6    600.0  -100.0
+
+ Output completed
+
+ Output completed
+
+ Output completed
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?Cleaning Diagram
+Successfully cleaned Diagram
+
+ Present totals:
+      Load-MW     3200.0 (    Scaling     3200.0:        0.0 Interruptible +     3200.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3258.6 (    Scaling     3258.6:     3258.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2399(    205     )    0.0002(    211     )
+                                                             0.00000(            )   0.03329(    206     )
+   0.5       0.0193(   3003     )    0.0436(    154     )
+                                                             0.00275(   3008     )   0.00000(            )
+   1.0       0.0699(    205     )    0.1434(    211     )
+                                                             0.00000(            )   0.00131(    102     )
+   1.5       0.0026(    154     )    0.1450(    211     )
+                                                             0.00285(    211     )   0.00000(            )
+   2.0       0.0239(    201     )    0.0526(    211     )
+                                                             0.00000(            )   0.00027(    102     )
+   2.5       0.0009(    206     )    0.0497(    211     )
+                                                             0.00097(    211     )   0.00000(            )
+   3.0       0.0075(    201     )    0.0196(    211     )
+                                                             0.00000(            )   0.00010(    102     )
+   3.5       0.0004(    206     )    0.0187(    211     )
+                                                             0.00037(    211     )   0.00000(            )
+   4.0       0.0029(    201     )    0.0073(    211     )
+                                                             0.00000(            )   0.00004(    102     )
+   4.5       0.0001(    206     )    0.0070(    211     )
+                                                             0.00014(    211     )   0.00000(            )
+   5.0       0.0011(    201     )    0.0027(    211     )
+                                                             0.00000(            )   0.00001(    102     )
+   5.5       0.0001(    206     )    0.0026(    211     )
+                                                             0.00005(    211     )   0.00000(            )
+   6.0       0.0004(    201     )    0.0010(    211     )
+                                                             0.00000(            )   0.00001(    102     )
+   6.5       0.0000(    206     )    0.0010(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+   7.0       0.0001(    201     )    0.0004(    211     )
+
+
+ Reached tolerance in 7 iterations
+
+ Largest mismatch:     -0.01 MW      0.04 Mvar      0.04 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.15 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     324.8    900.0     0.0     113.9    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3264.0 (    Scaling     3264.0:        0.0 Interruptible +     3264.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3324.8 (    Scaling     3324.8:     3324.8 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3329.3 (    Scaling     3329.3:        0.0 Interruptible +     3329.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3324.8 (    Scaling     3324.8:     3324.8 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3329.3 (    Scaling     3329.3:        0.0 Interruptible +     3329.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3324.8 (    Scaling     3324.8:     3324.8 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3329.3 (    Scaling     3329.3:        0.0 Interruptible +     3329.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3324.8 (    Scaling     3324.8:     3324.8 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2449(    205     )    0.0004(    211     )
+                                                             0.00000(            )   0.03409(    205     )
+   0.5       0.0204(   3003     )    0.0486(   3005     )
+                                                             0.00319(   3008     )   0.00000(            )
+   1.0       0.0798(    205     )    0.1629(    211     )
+                                                             0.00000(            )   0.00108(    102     )
+   1.5       0.0032(    154     )    0.1649(    211     )
+                                                             0.00321(    211     )   0.00000(            )
+   2.0       0.0272(    201     )    0.0625(    211     )
+                                                             0.00000(            )   0.00030(    102     )
+   2.5       0.0012(    154     )    0.0593(    211     )
+                                                             0.00115(    211     )   0.00000(            )
+   3.0       0.0090(    205     )    0.0239(    211     )
+                                                             0.00000(            )   0.00011(    102     )
+   3.5       0.0005(    206     )    0.0229(    211     )
+                                                             0.00044(    211     )   0.00000(            )
+   4.0       0.0034(    201     )    0.0091(    211     )
+                                                             0.00000(            )   0.00004(    102     )
+   4.5       0.0002(    154     )    0.0087(    211     )
+                                                             0.00017(    211     )   0.00000(            )
+   5.0       0.0013(    201     )    0.0035(    211     )
+                                                             0.00000(            )   0.00002(    102     )
+   5.5       0.0001(    154     )    0.0033(    211     )
+                                                             0.00006(    211     )   0.00000(            )
+   6.0       0.0005(    201     )    0.0013(    211     )
+                                                             0.00000(            )   0.00001(    102     )
+   6.5       0.0000(    154     )    0.0013(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+   7.0       0.0002(    201     )    0.0005(    211     )
+
+
+ Reached tolerance in 7 iterations
+
+ Largest mismatch:     -0.02 MW      0.05 Mvar      0.05 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.20 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     392.7    900.0     0.0     127.5    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3329.3 (    Scaling     3329.3:        0.0 Interruptible +     3329.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3392.7 (    Scaling     3392.7:     3392.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2499(    205     )    0.0005(    211     )
+                                                             0.00000(            )   0.03494(    205     )
+   0.5       0.0217(   3003     )    0.0576(   3005     )
+                                                             0.00366(   3008     )   0.00000(            )
+   1.0       0.0909(    205     )    0.1837(    211     )
+                                                             0.00000(            )   0.00077(    102     )
+   1.5       0.0041(    154     )    0.1862(    211     )
+                                                             0.00359(    211     )   0.00000(            )
+   2.0       0.0306(    201     )    0.0743(    211     )
+                                                             0.00000(            )   0.00032(    102     )
+   2.5       0.0016(    154     )    0.0708(    211     )
+                                                             0.00135(    211     )   0.00000(            )
+   3.0       0.0113(    205     )    0.0292(    211     )
+                                                             0.00000(            )   0.00012(    102     )
+   3.5       0.0006(    154     )    0.0280(    211     )
+                                                             0.00053(    211     )   0.00000(            )
+   4.0       0.0044(    205     )    0.0114(    211     )
+                                                             0.00000(            )   0.00005(    102     )
+   4.5       0.0003(    154     )    0.0109(    211     )
+                                                             0.00021(    211     )   0.00000(            )
+   5.0       0.0017(    205     )    0.0045(    211     )
+                                                             0.00000(            )   0.00002(    102     )
+   5.5       0.0001(    154     )    0.0043(    211     )
+                                                             0.00008(    211     )   0.00000(            )
+   6.0       0.0007(    205     )    0.0017(    211     )
+                                                             0.00000(            )   0.00001(    102     )
+   6.5       0.0000(    154     )    0.0017(    211     )
+                                                             0.00003(    211     )   0.00000(            )
+   7.0       0.0003(    205     )    0.0007(    211     )
+
+
+ Reached tolerance in 7 iterations
+
+ Largest mismatch:     -0.02 MW      0.07 Mvar      0.07 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.27 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     462.4    900.0     0.0     144.9    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3395.9 (    Scaling     3395.9:        0.0 Interruptible +     3395.9 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3462.4 (    Scaling     3462.4:     3462.4 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3463.8 (    Scaling     3463.8:        0.0 Interruptible +     3463.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3462.4 (    Scaling     3462.4:     3462.4 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2549(    205     )    0.0007(    211     )
+                                                             0.00000(            )   0.03583(    205     )
+   0.5       0.0233(   3003     )    0.0672(   3005     )
+                                                             0.00418(   3008     )   0.00000(            )
+   1.0       0.1032(    205     )    0.2062(    211     )
+                                                             0.00000(            )   0.00109(    154     )
+   1.5       0.0052(    154     )    0.2093(    211     )
+                                                             0.00398(    211     )   0.00000(            )
+   2.0       0.0369(    205     )    0.0884(    211     )
+                                                             0.00000(            )   0.00034(    211     )
+   2.5       0.0021(    154     )    0.0846(    211     )
+                                                             0.00160(    211     )   0.00000(            )
+   3.0       0.0144(    205     )    0.0360(    211     )
+                                                             0.00000(            )   0.00013(    211     )
+   3.5       0.0009(    154     )    0.0346(    211     )
+                                                             0.00065(    211     )   0.00000(            )
+   4.0       0.0057(    205     )    0.0145(    211     )
+                                                             0.00000(            )   0.00005(    211     )
+   4.5       0.0004(    154     )    0.0140(    211     )
+                                                             0.00026(    211     )   0.00000(            )
+   5.0       0.0023(    205     )    0.0059(    211     )
+                                                             0.00000(            )   0.00002(    211     )
+   5.5       0.0001(    154     )    0.0056(    211     )
+                                                             0.00011(    211     )   0.00000(            )
+   6.0       0.0009(    205     )    0.0024(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+   6.5       0.0001(    154     )    0.0023(    211     )
+                                                             0.00004(    211     )   0.00000(            )
+   7.0       0.0004(    205     )    0.0010(    211     )
+
+
+ Reached tolerance in 7 iterations
+
+ Largest mismatch:     -0.03 MW      0.10 Mvar      0.10 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.38 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     534.1    900.0     0.0     166.4    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3463.8 (    Scaling     3463.8:        0.0 Interruptible +     3463.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3534.1 (    Scaling     3534.1:     3534.1 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3463.8 (    Scaling     3463.8:        0.0 Interruptible +     3463.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3534.1 (    Scaling     3534.1:     3534.1 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3463.8 (    Scaling     3463.8:        0.0 Interruptible +     3463.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3534.1 (    Scaling     3534.1:     3534.1 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3533.1 (    Scaling     3533.1:        0.0 Interruptible +     3533.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3534.1 (    Scaling     3534.1:     3534.1 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2602(    205     )    0.0010(    211     )
+                                                             0.00000(            )   0.03677(    205     )
+   0.5       0.0252(   3003     )    0.0775(   3005     )
+                                                             0.00477(   3007     )   0.00000(            )
+   1.0       0.1172(    205     )    0.2306(    211     )
+                                                             0.00000(            )   0.00182(    154     )
+   1.5       0.0065(    154     )    0.2343(    211     )
+                                                             0.00440(    211     )   0.00000(            )
+   2.0       0.0452(    205     )    0.1054(    211     )
+                                                             0.00000(            )   0.00044(    211     )
+   2.5       0.0028(    154     )    0.1014(    211     )
+                                                             0.00189(    211     )   0.00000(            )
+   3.0       0.0185(    205     )    0.0447(    211     )
+                                                             0.00000(            )   0.00018(    211     )
+   3.5       0.0012(    154     )    0.0431(    211     )
+                                                             0.00080(    211     )   0.00000(            )
+   4.0       0.0077(    205     )    0.0188(    211     )
+                                                             0.00000(            )   0.00008(    211     )
+   4.5       0.0005(    154     )    0.0181(    211     )
+                                                             0.00033(    211     )   0.00000(            )
+   5.0       0.0032(    205     )    0.0079(    211     )
+                                                             0.00000(            )   0.00003(    211     )
+   5.5       0.0002(    154     )    0.0076(    211     )
+                                                             0.00014(    211     )   0.00000(            )
+   6.0       0.0013(    205     )    0.0033(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+   6.5       0.0001(    154     )    0.0032(    211     )
+                                                             0.00006(    211     )   0.00000(            )
+   7.0       0.0006(    205     )    0.0014(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+   7.5       0.0000(    154     )    0.0013(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+   8.0       0.0002(    205     )    0.0006(    211     )
+
+
+ Reached tolerance in 8 iterations
+
+ Largest mismatch:     -0.02 MW      0.06 Mvar      0.06 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.23 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     607.9    900.0     0.0     192.8    600.0  -100.0
+
+ Present totals:
+      Load-MW     3533.1 (    Scaling     3533.1:        0.0 Interruptible +     3533.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3533.1 (    Scaling     3533.1:        0.0 Interruptible +     3533.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3533.1 (    Scaling     3533.1:        0.0 Interruptible +     3533.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3607.9 (    Scaling     3607.9:     3607.9 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2652(    205     )    0.0006(    211     )
+                                                             0.00000(            )   0.03778(    205     )
+   0.5       0.0276(   3003     )    0.0887(   3005     )
+                                                             0.00544(   3007     )   0.00000(            )
+   1.0       0.1329(    205     )    0.2570(    211     )
+                                                             0.00000(            )   0.00270(    154     )
+   1.5       0.0083(    154     )    0.2615(    211     )
+                                                             0.00483(    211     )   0.00000(            )
+   2.0       0.0557(    205     )    0.1260(    211     )
+                                                             0.00000(            )   0.00057(    211     )
+   2.5       0.0038(    154     )    0.1218(    211     )
+                                                             0.00223(    211     )   0.00000(            )
+   3.0       0.0241(    205     )    0.0561(    211     )
+                                                             0.00000(            )   0.00025(    211     )
+   3.5       0.0017(    154     )    0.0544(    211     )
+                                                             0.00099(    211     )   0.00000(            )
+   4.0       0.0104(    205     )    0.0246(    211     )
+                                                             0.00000(            )   0.00011(    211     )
+   4.5       0.0008(    154     )    0.0238(    211     )
+                                                             0.00043(    211     )   0.00000(            )
+   5.0       0.0046(    205     )    0.0108(    211     )
+                                                             0.00000(            )   0.00005(    211     )
+   5.5       0.0003(    154     )    0.0105(    211     )
+                                                             0.00019(    211     )   0.00000(            )
+   6.0       0.0020(    205     )    0.0047(    211     )
+                                                             0.00000(            )   0.00002(    211     )
+   6.5       0.0001(    154     )    0.0046(    211     )
+                                                             0.00008(    211     )   0.00000(            )
+   7.0       0.0009(    205     )    0.0021(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+   7.5       0.0001(    154     )    0.0020(    211     )
+                                                             0.00004(    211     )   0.00000(            )
+   8.0       0.0004(    205     )    0.0009(    211     )
+
+
+ Reached tolerance in 8 iterations
+
+ Largest mismatch:     -0.03 MW      0.09 Mvar      0.10 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.37 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     684.0    900.0     0.0     224.7    600.0  -100.0
+
+ Present totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2707(    205     )    0.0009(    211     )
+                                                             0.00000(            )   0.03887(    205     )
+   0.5       0.0305(   3003     )    0.1007(   3005     )
+                                                             0.00619(   3007     )   0.00000(            )
+   1.0       0.1509(    205     )    0.2862(    211     )
+                                                             0.00000(            )   0.00379(    154     )
+   1.5       0.0106(    154     )    0.2915(    211     )
+                                                             0.00529(    211     )   0.00000(            )
+   2.0       0.0689(    205     )    0.1514(    211     )
+                                                             0.00000(            )   0.00087(    154     )
+   2.5       0.0052(    154     )    0.1472(    211     )
+                                                             0.00264(    211     )   0.00000(            )
+   3.0       0.0317(    205     )    0.0715(    211     )
+                                                             0.00000(            )   0.00038(    154     )
+   3.5       0.0025(    154     )    0.0694(    211     )
+                                                             0.00124(    211     )   0.00000(            )
+   4.0       0.0145(    205     )    0.0331(    211     )
+                                                             0.00000(            )   0.00017(    154     )
+   4.5       0.0012(    154     )    0.0321(    211     )
+                                                             0.00057(    211     )   0.00000(            )
+   5.0       0.0067(    205     )    0.0153(    211     )
+                                                             0.00000(            )   0.00008(    154     )
+   5.5       0.0005(    154     )    0.0148(    211     )
+                                                             0.00026(    211     )   0.00000(            )
+   6.0       0.0031(    205     )    0.0071(    211     )
+                                                             0.00000(            )   0.00004(    154     )
+   6.5       0.0003(    154     )    0.0069(    211     )
+                                                             0.00012(    211     )   0.00000(            )
+   7.0       0.0014(    205     )    0.0033(    211     )
+                                                             0.00000(            )   0.00002(    154     )
+   7.5       0.0001(    154     )    0.0032(    211     )
+                                                             0.00006(    211     )   0.00000(            )
+   8.0       0.0007(    205     )    0.0015(    211     )
+                                                             0.00000(            )   0.00001(    154     )
+   8.5       0.0001(    154     )    0.0015(    211     )
+                                                             0.00003(    211     )   0.00000(            )
+   9.0       0.0003(    205     )    0.0007(    211     )
+
+
+ Reached tolerance in 9 iterations
+
+ Largest mismatch:     -0.02 MW      0.07 Mvar      0.07 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.29 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     762.5    900.0     0.0     263.2    600.0  -100.0
+
+ Present totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3762.5 (    Scaling     3762.5:     3762.5 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3749.3 (    Scaling     3749.3:        0.0 Interruptible +     3749.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3762.5 (    Scaling     3762.5:     3762.5 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2760(    205     )    0.0007(    211     )
+                                                             0.00000(            )   0.04005(    205     )
+   0.5       0.0341(   3003     )    0.1138(   3005     )
+                                                             0.00703(   3007     )   0.00000(            )
+   1.0       0.1716(    205     )    0.3182(    211     )
+                                                             0.00000(            )   0.00512(    154     )
+   1.5       0.0135(    154     )    0.3246(    211     )
+                                                             0.00577(    211     )   0.00000(            )
+   2.0       0.0859(    205     )    0.1829(    211     )
+                                                             0.00000(            )   0.00134(    154     )
+   2.5       0.0073(    154     )    0.1788(    211     )
+                                                             0.00314(    211     )   0.00000(            )
+   3.0       0.0424(    205     )    0.0923(    211     )
+                                                             0.00000(            )   0.00060(    154     )
+   3.5       0.0037(    154     )    0.0901(    211     )
+                                                             0.00157(    211     )   0.00000(            )
+   4.0       0.0207(    205     )    0.0454(    211     )
+                                                             0.00000(            )   0.00029(    154     )
+   4.5       0.0018(    154     )    0.0443(    211     )
+                                                             0.00077(    211     )   0.00000(            )
+   5.0       0.0101(    205     )    0.0223(    211     )
+                                                             0.00000(            )   0.00014(    154     )
+   5.5       0.0009(    154     )    0.0218(    211     )
+                                                             0.00038(    211     )   0.00000(            )
+   6.0       0.0050(    205     )    0.0110(    211     )
+                                                             0.00000(            )   0.00007(    154     )
+   6.5       0.0005(    154     )    0.0107(    211     )
+                                                             0.00019(    211     )   0.00000(            )
+   7.0       0.0025(    205     )    0.0054(    211     )
+                                                             0.00000(            )   0.00003(    154     )
+   7.5       0.0002(    154     )    0.0053(    211     )
+                                                             0.00009(    211     )   0.00000(            )
+   8.0       0.0012(    205     )    0.0027(    211     )
+                                                             0.00000(            )   0.00002(    154     )
+   8.5       0.0001(    154     )    0.0026(    211     )
+                                                             0.00005(    211     )   0.00000(            )
+   9.0       0.0006(    205     )    0.0013(    211     )
+                                                             0.00000(            )   0.00001(    154     )
+   9.5       0.0001(    154     )    0.0013(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+  10.0       0.0003(    205     )    0.0006(    211     )
+
+
+ Reached tolerance in 10 iterations
+
+ Largest mismatch:     -0.02 MW      0.06 Mvar      0.07 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.27 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     843.7    900.0     0.0     309.7    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3749.3 (    Scaling     3749.3:        0.0 Interruptible +     3749.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.5457(    205     )    0.0006(    211     )
+                                                             0.00000(            )   0.08026(    206     )
+   0.5       0.0740(   3003     )    0.2192(   3005     )
+                                                             0.13053(   3008     )   0.00000(            )
+   1.0       2.3089(    205     )    4.4353(    211     )
+                                                             0.00000(            )   0.04815(    154     )
+   1.5       0.0634(    205     )    4.5070(    211     )
+                                                             0.07827(    211     )   0.00000(            )
+   2.0       0.9174(    205     )    1.4799(    211     )
+                                                             0.00000(            )   0.02899(    154     )
+   2.5       0.0535(    154     )    1.6053(    211     )
+                                                             0.03282(    211     )   0.00000(            )
+   3.0       0.3664(    205     )    0.8342(    211     )
+                                                             0.00000(            )   0.00573(    211     )
+   3.5       0.0240(    154     )    0.8024(    211     )
+                                                             0.01538(    211     )   0.00000(            )
+   4.0       0.1621(    205     )    0.3704(    211     )
+                                                             0.00000(            )   0.00166(    211     )
+   4.5       0.0112(    154     )    0.3581(    211     )
+                                                             0.00666(    211     )   0.00000(            )
+   5.0       0.0700(    205     )    0.1639(    211     )
+                                                             0.00000(            )   0.00071(    211     )
+   5.5       0.0050(    154     )    0.1585(    211     )
+                                                             0.00291(    211     )   0.00000(            )
+   6.0       0.0305(    205     )    0.0720(    211     )
+                                                             0.00000(            )   0.00032(    211     )
+   6.5       0.0022(    154     )    0.0697(    211     )
+                                                             0.00127(    211     )   0.00000(            )
+   7.0       0.0133(    205     )    0.0316(    211     )
+                                                             0.00000(            )   0.00014(    211     )
+   7.5       0.0010(    154     )    0.0306(    211     )
+                                                             0.00056(    211     )   0.00000(            )
+   8.0       0.0058(    205     )    0.0139(    211     )
+                                                             0.00000(            )   0.00006(    211     )
+   8.5       0.0004(    154     )    0.0134(    211     )
+                                                             0.00024(    211     )   0.00000(            )
+   9.0       0.0026(    205     )    0.0061(    211     )
+                                                             0.00000(            )   0.00003(    211     )
+   9.5       0.0002(    154     )    0.0059(    211     )
+                                                             0.00011(    211     )   0.00000(            )
+  10.0       0.0011(    205     )    0.0027(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+  10.5       0.0001(    154     )    0.0026(    211     )
+                                                             0.00005(    211     )   0.00000(            )
+  11.0       0.0005(    205     )    0.0012(    211     )
+                                                             0.00000(            )   0.00001(    211     )
+  11.5       0.0000(    154     )    0.0011(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+  12.0       0.0002(    205     )    0.0005(    211     )
+
+
+ Reached tolerance in 12 iterations
+
+ Largest mismatch:     -0.02 MW      0.05 Mvar      0.05 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.21 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     684.0    900.0     0.0     224.7    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3603.7 (    Scaling     3603.7:        0.0 Interruptible +     3603.7 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3684.0 (    Scaling     3684.0:     3684.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2705(    205     )    0.0005(    211     )
+                                                             0.00000(            )   0.03887(    205     )
+   0.5       0.0305(   3003     )    0.1007(   3005     )
+                                                             0.00618(   3007     )   0.00000(            )
+   1.0       0.1508(    205     )    0.2860(    211     )
+                                                             0.00000(            )   0.00379(    154     )
+   1.5       0.0106(    154     )    0.2913(    211     )
+                                                             0.00529(    211     )   0.00000(            )
+   2.0       0.0689(    205     )    0.1513(    211     )
+                                                             0.00000(            )   0.00087(    154     )
+   2.5       0.0052(    154     )    0.1471(    211     )
+                                                             0.00264(    211     )   0.00000(            )
+   3.0       0.0317(    205     )    0.0714(    211     )
+                                                             0.00000(            )   0.00038(    154     )
+   3.5       0.0025(    154     )    0.0694(    211     )
+                                                             0.00124(    211     )   0.00000(            )
+   4.0       0.0145(    205     )    0.0330(    211     )
+                                                             0.00000(            )   0.00017(    154     )
+   4.5       0.0012(    154     )    0.0321(    211     )
+                                                             0.00057(    211     )   0.00000(            )
+   5.0       0.0067(    205     )    0.0153(    211     )
+                                                             0.00000(            )   0.00008(    154     )
+   5.5       0.0005(    154     )    0.0148(    211     )
+                                                             0.00026(    211     )   0.00000(            )
+   6.0       0.0031(    205     )    0.0071(    211     )
+                                                             0.00000(            )   0.00004(    154     )
+   6.5       0.0003(    154     )    0.0069(    211     )
+                                                             0.00012(    211     )   0.00000(            )
+   7.0       0.0014(    205     )    0.0033(    211     )
+                                                             0.00000(            )   0.00002(    154     )
+   7.5       0.0001(    154     )    0.0032(    211     )
+                                                             0.00006(    211     )   0.00000(            )
+   8.0       0.0007(    205     )    0.0015(    211     )
+                                                             0.00000(            )   0.00001(    154     )
+   8.5       0.0001(    154     )    0.0015(    211     )
+                                                             0.00003(    211     )   0.00000(            )
+   9.0       0.0003(    205     )    0.0007(    211     )
+
+
+ Reached tolerance in 9 iterations
+
+ Largest mismatch:     -0.02 MW      0.07 Mvar      0.07 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.29 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     762.5    900.0     0.0     263.2    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3675.8 (    Scaling     3675.8:        0.0 Interruptible +     3675.8 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3762.5 (    Scaling     3762.5:     3762.5 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3749.3 (    Scaling     3749.3:        0.0 Interruptible +     3749.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3762.5 (    Scaling     3762.5:     3762.5 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2760(    205     )    0.0007(    211     )
+                                                             0.00000(            )   0.04005(    205     )
+   0.5       0.0341(   3003     )    0.1138(   3005     )
+                                                             0.00703(   3007     )   0.00000(            )
+   1.0       0.1716(    205     )    0.3182(    211     )
+                                                             0.00000(            )   0.00512(    154     )
+   1.5       0.0135(    154     )    0.3246(    211     )
+                                                             0.00577(    211     )   0.00000(            )
+   2.0       0.0859(    205     )    0.1829(    211     )
+                                                             0.00000(            )   0.00134(    154     )
+   2.5       0.0073(    154     )    0.1788(    211     )
+                                                             0.00314(    211     )   0.00000(            )
+   3.0       0.0424(    205     )    0.0923(    211     )
+                                                             0.00000(            )   0.00060(    154     )
+   3.5       0.0037(    154     )    0.0901(    211     )
+                                                             0.00157(    211     )   0.00000(            )
+   4.0       0.0207(    205     )    0.0454(    211     )
+                                                             0.00000(            )   0.00029(    154     )
+   4.5       0.0018(    154     )    0.0443(    211     )
+                                                             0.00077(    211     )   0.00000(            )
+   5.0       0.0101(    205     )    0.0223(    211     )
+                                                             0.00000(            )   0.00014(    154     )
+   5.5       0.0009(    154     )    0.0218(    211     )
+                                                             0.00038(    211     )   0.00000(            )
+   6.0       0.0050(    205     )    0.0110(    211     )
+                                                             0.00000(            )   0.00007(    154     )
+   6.5       0.0005(    154     )    0.0107(    211     )
+                                                             0.00019(    211     )   0.00000(            )
+   7.0       0.0025(    205     )    0.0054(    211     )
+                                                             0.00000(            )   0.00003(    154     )
+   7.5       0.0002(    154     )    0.0053(    211     )
+                                                             0.00009(    211     )   0.00000(            )
+   8.0       0.0012(    205     )    0.0027(    211     )
+                                                             0.00000(            )   0.00002(    154     )
+   8.5       0.0001(    154     )    0.0026(    211     )
+                                                             0.00005(    211     )   0.00000(            )
+   9.0       0.0006(    205     )    0.0013(    211     )
+                                                             0.00000(            )   0.00001(    154     )
+   9.5       0.0001(    154     )    0.0013(    211     )
+                                                             0.00002(    211     )   0.00000(            )
+  10.0       0.0003(    205     )    0.0006(    211     )
+
+
+ Reached tolerance in 10 iterations
+
+ Largest mismatch:     -0.02 MW      0.06 Mvar      0.07 MVA at bus 201 [HYDRO       500.00]
+ System total absolute mismatch:                    0.27 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     843.7    900.0     0.0     309.7    600.0  -100.0
+ lout, all
+
+ ENTER OUTPUT DEVICE CODE:
+  0 FOR NO OUTPUT               1 FOR REPORT DEVICE
+  2 FOR A FILE                  3 FOR DEFAULT PRINTER
+  6 FOR ALTERNATE SPOOL DEVICE  7 FOR PROGRESS DEVICE: 1
+
+ Output completed
+
+ ACTIVITY?
+ Present totals:
+      Load-MW     3749.3 (    Scaling     3749.3:        0.0 Interruptible +     3749.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3824.3 (    Scaling     3824.3:        0.0 Interruptible +     3824.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ Present totals:
+      Load-MW     3824.3 (    Scaling     3824.3:        0.0 Interruptible +     3824.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3824.3 (    Scaling     3824.3:        0.0 Interruptible +     3824.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar     1950.0 (    Scaling     1950.0:        0.0 Interruptible +     1950.0 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3843.7 (    Scaling     3843.7:     3843.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0       0.2815(    205     )    0.0006(    211     )
+                                                             0.00000(            )   0.04134(    205     )
+   0.5       0.0385(   3003     )    0.1281(   3005     )
+                                                             0.00801(   3007     )   0.00000(            )
+   1.0       0.1957(    205     )    0.3541(    201     )
+                                                             0.00000(            )   0.00679(    154     )
+   1.5       0.0175(    154     )    0.3617(    201     )
+                                                             0.00779(    154     )   0.00000(            )
+   2.0       0.2120(    205     )    0.0511(    154     )
+                                                             0.00000(            )   0.00514(    154     )
+   2.5       0.0193(    154     )    0.0847(    154     )
+                                                             0.00847(    154     )   0.00000(            )
+   3.0       0.2300(    205     )    0.0556(    154     )
+                                                             0.00000(            )   0.00521(    154     )
+   3.5       0.0220(    154     )    0.0916(    154     )
+                                                             0.00900(    154     )   0.00000(            )
+   4.0       0.2452(    205     )    0.0592(    154     )
+                                                             0.00000(            )   0.00537(    154     )
+   4.5       0.0248(    154     )    0.0975(    154     )
+                                                             0.00976(    154     )   0.00000(            )
+   5.0       0.2671(    205     )    0.0641(    154     )
+                                                             0.00000(            )   0.00596(    154     )
+   5.5       0.0286(    154     )    0.1058(    154     )
+                                                             0.01084(    154     )   0.00000(            )
+   6.0       0.2982(    205     )    0.0712(    154     )
+                                                             0.00000(            )   0.00682(    154     )
+   6.5       0.0338(    154     )    0.1178(    154     )
+                                                             0.01239(    154     )   0.00000(            )
+   7.0       0.3423(    205     )    0.0813(    154     )
+                                                             0.00000(            )   0.00805(    154     )
+   7.5       0.0412(    154     )    0.1349(    154     )
+                                                             0.01461(    154     )   0.00000(            )
+   8.0       0.4057(    205     )    0.0959(    154     )
+                                                             0.00000(            )   0.00988(    154     )
+   8.5       0.0521(    154     )    0.1596(    154     )
+                                                             0.01788(    154     )   0.00000(            )
+   9.0       0.4986(    205     )    0.1174(    154     )
+                                                             0.00000(            )   0.01267(    154     )
+   9.5       0.0690(    154     )    0.1958(    154     )
+                                                             0.02289(    154     )   0.00000(            )
+  10.0       0.6405(    205     )    0.1502(    154     )
+                                                             0.00000(            )   0.01720(    154     )
+  10.5       0.0965(    154     )    0.2512(    154     )
+                                                             0.03098(    154     )   0.00000(            )
+  11.0       0.8687(    205     )    0.2034(    154     )
+                                                             0.00000(            )   0.02516(    154     )
+  11.5       0.1459(    205     )    0.3411(    154     )
+                                                             0.04518(    154     )   0.00000(            )
+  12.0       1.2648(    205     )    0.2970(    154     )
+                                                             0.00000(            )   0.04086(    154     )
+  12.5       0.2547(    205     )    0.4990(    154     )
+                                                             0.07332(    154     )   0.00000(            )
+  13.0       2.0008(    205     )    0.4432(    154     )
+                                                             0.00000(            )   0.07131(    154     )
+  13.5       0.5059(    205     )    0.7576(    154     )
+                                                             0.13400(    154     )   0.00000(            )
+  14.0       2.7283(    205     )    1.4812(    102     )
+                                                             0.00000(            )   0.05115(    211     )
+  14.5       0.8868(    205     )    1.4932(    102     )
+                                                             0.99000(    154     )   0.00000(            )
+
+ Blown up after 14 iterations
+
+ Largest mismatch:   -797.30 MW   -528.23 Mvar    956.41 MVA at bus 206 [URBGEN      18.000]
+ System total absolute mismatch:                 3930.65 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800     876.2    900.0     0.0    2268.6*   600.0  -100.0
+
+ Present totals:
+      Load-MW      223.4 (    Scaling      223.4:        0.0 Interruptible +      223.4 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar       83.4 (    Scaling       83.4:        0.0 Interruptible +       83.4 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3876.2 (    Scaling     3876.2:     3876.2 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3824.3 (    Scaling     3824.3:        0.0 Interruptible +     3824.3 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar       83.4 (    Scaling       83.4:        0.0 Interruptible +       83.4 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     3953.7 (    Scaling     3953.7:     3953.7 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+  ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+   0.0     245.4415(    205     )    7.9169(    154     )
+                                                             0.00000(            )3619.14795(    205     )
+   0.5      26.4599(   3003     )  282.5662(   3001     )
+                                                             0.99000(    154     )   0.00000(            )
+
+ Blown up after 0 iterations
+
+ VOLTAGE CONTROLLED BUSES WHOSE VOLTAGES DIFFER FROM THEIR SCHEDULED VOLTAGES BY MORE THAN 0.00001 PU
+ "*" IF BY MORE THAN 0.00001 PU
+ X--------- VOLTAGE CONTROLLED BUS ----------X X------------- VOLTAGE CONTROLLING EQUIPMENT --------------X
+   BUS#-SCT X-- NAME --X BASKV VOLTAGE V-SCHED QACTUAL   QHIGH    QLOW   BUS#-SCT X-- NAME --X BASKV X- TYPE -X
+    101     NUC-A       21.600 0.44490*1.02000   356.8   600.0  -100.0    101     NUC-A       21.600 GENERATION
+    102     NUC-B       21.600 0.44490*1.02000   356.8   600.0  -100.0    102     NUC-B       21.600 GENERATION
+    201     HYDRO       500.00 0.25768*1.04000  1293.1   400.0  -100.0    211     HYDRO_G     20.000 GENERATION
+    205     SUB230      230.00 0.01270*0.98000    77.9   600.0     0.0    206     URBGEN      18.000 GENERATION
+   3008     CATDOG      230.00 0.14558*1.02000   405.8    80.0     0.0   3018     CATDOG_G    13.800 GENERATION
+ Warning: 5 voltage controlled buses whose voltages differ from
+          their scheduled voltages by more than 0.00001 pu
+
+ Largest mismatch:  -1783.82 MW  26688.19 Mvar  26747.74 MVA at bus 3001 [MINE        230.00]
+ System total absolute mismatch:                54973.03 MVA
+
+ SWING BUS SUMMARY:
+   BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+   3011     MINE_G      13.800    6399.6*   900.0     0.0   16363.0*   600.0  -100.0
+
+ Machine "1" at bus 3011 [MINE_G      13.800]: PGEN (6399.6) is beyond its limits (PMIN=0.0, PMAX=900.0)
+
+ Present totals:
+      Load-MW     3568.1 (    Scaling     3568.1:        0.0 Interruptible +     3568.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar       77.5 (    Scaling       77.5:        0.0 Interruptible +       77.5 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     9459.6 (    Scaling     9459.6:     9459.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
+ New totals:
+      Load-MW     3568.1 (    Scaling     3568.1:        0.0 Interruptible +     3568.1 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+    Load-Mvar       77.5 (    Scaling       77.5:        0.0 Interruptible +       77.5 Non-interruptible
+                          + Unchanged        0.0:        0.0 Interruptible +        0.0 Non-interruptible )
+   Generation     9459.6 (    Scaling     9459.6:     9459.6 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only
+                          + Unchanged        0.0:        0.0 Non-base loaded +        0.0 Down only +        0.0 Neither up nor down +        0.0 Up only )
+     Shunt-MW        0.0
+     Reactors     -600.0
+   Capacitors      950.0
+
